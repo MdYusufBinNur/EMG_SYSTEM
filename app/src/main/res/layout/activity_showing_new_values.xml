@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#413f3f"
+    tools:context="bd.com.example.yusuf.emg_system.ShowingNewValues">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewdept"
+            android:text="View Dept"
+            android:textColor="#fff"
+            android:background="#d45ace"
+            android:layout_margin="2dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewsec"
+            android:text="View Section"
+            android:textColor="#fff"
+            android:background="#2d97e9"
+            android:layout_margin="2dp"
+
+
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewbranch"
+            android:text="View Branch"
+            android:textColor="#fff"
+            android:background="#0cb368"
+            android:layout_margin="2dp"
+
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/viewsalary"
+            android:text="View Salary"
+            android:textColor="#fff"
+            android:background="#dcd242"
+            android:layout_margin="2dp"
+
+
+            />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/colorPrimary"
+        android:hint="Search here . ."
+        android:textColorHint="#fff"
+        android:id="@+id/simpleSearch"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        />
+    <ListView
+        android:id="@+id/newdatalist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#8c0909"
+        android:dividerHeight="5dp"
+        >
+    </ListView>
+
+</LinearLayout>

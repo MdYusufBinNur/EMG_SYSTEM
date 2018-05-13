@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#413f3f"
+    tools:context="bd.com.example.yusuf.emg_system.ViewAllEmployee">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:hint="  Search Here "
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:layout_margin="@dimen/fab_margin"
+
+        />
+
+    <Spinner
+        android:id="@+id/adddatainsp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="@dimen/fab_margin"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp"
+        tools:ignore="MissingConstraints"
+        android:autofillHints="@string/app_name"
+        android:background="#665f5f">
+
+    </Spinner>
+
+    <ListView
+        android:id="@+id/listAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#840602"
+        android:dividerHeight="4dp"
+        android:textAlignment="center"
+        android:cacheColorHint="#FFF"
+        android:layout_margin="@dimen/fab_margin"
+
+        >
+
+    </ListView>
+</LinearLayout>

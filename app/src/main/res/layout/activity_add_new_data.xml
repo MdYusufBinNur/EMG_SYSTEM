@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bd.com.example.yusuf.emg_system.AddNewData"
+    android:background="#272626"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            android:textAlignment="center"
+            android:text="Admin Panel For Adding New Data"
+            android:layout_margin="@dimen/fab_margin"
+            android:textSize="@dimen/fab_margin"
+            android:textColor="#ffffff"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="20dp"
+                android:background="#FFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Add New Department"
+                    android:ems="10"
+
+                    android:id="@+id/addDept"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_margin="20dp"
+                android:background="#960000"
+                >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:id="@+id/addDeptButton"
+                android:textColor="#ffffff"
+                android:background="#2ccf7b"
+                android:layout_marginBottom="2dp"
+                android:text="Add"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_margin="20dp"
+                android:background="#FFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Add New Section"
+                    android:ems="10"
+                    android:id="@+id/addSection"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_margin="20dp"
+                android:background="#960000"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:id="@+id/addSectionBtn"
+                    android:textColor="#ffffff"
+                    android:background="#2ccf7b"
+                    android:layout_marginBottom="2dp"
+                    android:text="Add"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_margin="20dp"
+                android:background="#FFF">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Add New Branch"
+                    android:ems="10"
+                    android:id="@+id/addBranch"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:layout_margin="20dp"
+                android:background="#960000"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:id="@+id/addBranchButton"
+                    android:textColor="#ffffff"
+                    android:background="#2ccf7b"
+                    android:layout_marginBottom="2dp"
+                    android:text="Add"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:id="@+id/viewDeptButton"
+            android:textColor="#ffffff"
+            android:background="#e1b33c"
+            android:text="View Added Data"
+            />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

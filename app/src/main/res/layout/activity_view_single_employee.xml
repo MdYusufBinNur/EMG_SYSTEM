@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333332"
+        tools:context="bd.com.example.yusuf.emg_system.Registration">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:layout_margin="@dimen/fab_margin"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID NUMBER"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:textColor="#860000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:hint="@string/app_name"
+                    android:layout_margin="@dimen/fab_margin"
+                    android:id="@+id/dbid"
+                    android:textAlignment="center"
+                    android:textColor="#860000"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/reg_image"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_explicit_black_24dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:layout_margin="@dimen/fab_margin"
+                >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Registration Id"
+                        android:id="@+id/reg_idd"
+                        android:ems="9"
+
+                        />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Name"
+                        android:ems="10"
+                        android:layout_marginLeft="@dimen/fab_margin"
+                        android:id="@+id/reg_namee"
+
+
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="#FFF"
+                >
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Emaill"
+                        android:ems="10"
+                        android:id="@+id/reg_emaill"
+                        />
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Designation"
+                        android:id="@+id/reg_desgg"
+                        android:layout_gravity="center"
+                        android:ems="10"
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:layout_margin="@dimen/fab_margin"
+                >
+
+                    <Spinner
+                        android:id="@+id/reg_genderr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:hint="Gender"
+                        android:focusableInTouchMode="true"
+                        android:entries="@array/gender"
+                        android:dropDownSelector="@color/colorPrimary"
+                        />
+
+
+
+                    <Spinner
+                        android:id="@+id/reg_bloodd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:hint="Blood Group"
+                        android:textColor="#e6e5e5"
+                        android:entries="@array/b_group"
+                        android:textColorHint="#e6e5e5"
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/fab_margin"
+                android:background="#FFF">
+
+                    <Spinner
+                        android:id="@+id/reg_sectionn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:hint="Section"
+                        android:entries="@array/section"
+                        android:textColor="#e6e5e5"
+                        android:textColorHint="#e6e5e5"
+                        />
+
+
+                    <Spinner
+                        android:id="@+id/reg_deptt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:hint="Department"
+                        android:textColor="#e6e5e5"
+                        android:entries="@array/dept"
+                        android:background="#FFF"
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:layout_margin="@dimen/fab_margin"
+                >
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:hint="Joining Date"
+                        android:id="@+id/reg_joiningg"
+                        android:layout_gravity="center"
+                        android:ems="10"
+
+                        />
+
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile"
+                        android:id="@+id/reg_mobilee"
+                        android:layout_gravity="center"
+                        android:ems="10"
+
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:layout_margin="@dimen/fab_margin">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="National Id/ Passport No"
+                        android:layout_gravity="center"
+                        android:ems="10"
+                        android:id="@+id/reg_nidd"
+
+                        />
+
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Present Address"
+                        android:layout_gravity="center"
+                        android:ems="10"
+                        android:id="@+id/reg_preaddresss"
+
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#FFF"
+                android:layout_margin="@dimen/fab_margin">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/reg_peraddresss"
+                        android:hint="Permanent Address"
+                        android:layout_gravity="center"
+                        android:ems="10"
+                        />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/reg_salaryy"
+                        android:hint="Salary"
+                        android:layout_gravity="center"
+                        android:ems="10"
+
+                        />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/fab_margin">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f2ba36"
+                    android:ems="10"
+                    android:id="@+id/update"
+                    android:text="Update"
+                    android:layout_gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ae1f26"
+                    android:ems="10"
+                    android:layout_marginLeft="@dimen/fab_margin"
+                    android:id="@+id/delete"
+                    android:text="Delete"
+                    android:layout_gravity="center"
+                    android:textColor="#FFF"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>

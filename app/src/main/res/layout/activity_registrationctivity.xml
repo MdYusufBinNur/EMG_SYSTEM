@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#413f3f"
+    tools:context="bd.com.example.yusuf.emg_system.Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/reg_image"
+            android:layout_gravity="center"
+            android:inputType="textUri"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_explicit_black_24dp"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="20dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Registration Id"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:id="@+id/reg_id"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_margin="20dp"
+
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:id="@+id/reg_name"
+                android:layout_gravity="center"
+                android:ems="10"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:id="@+id/reg_email"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_margin="20dp"
+
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Designation"
+                android:id="@+id/reg_desg"
+                android:layout_gravity="center"
+                android:ems="10"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <Spinner
+                android:id="@+id/reg_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Gender"
+                android:focusableInTouchMode="true"
+                android:entries="@array/gender"
+                android:dropDownSelector="@color/colorPrimary"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="20dp"
+
+            android:background="#FFF">
+            <Spinner
+                android:id="@+id/reg_blood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Blood Group"
+                android:textColor="#e6e5e5"
+                android:textColorHint="#e6e5e5"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="20dp"
+
+            android:background="#FFF">
+            <Spinner
+                android:id="@+id/reg_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Section"
+                android:textColor="#e6e5e5"
+                android:textColorHint="#e6e5e5"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="20dp"
+
+            android:background="#FFF">
+            <Spinner
+                android:id="@+id/reg_dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Department"
+                android:textColor="#e6e5e5"
+                android:background="#FFF"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="20dp"
+
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint="Joining Date"
+                android:id="@+id/reg_joining"
+                android:layout_gravity="center"
+                android:ems="10"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_margin="20dp"
+
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile"
+                android:id="@+id/reg_mobile"
+                android:layout_gravity="center"
+                android:ems="10"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="National Id/ Passport No"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:id="@+id/reg_nid"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_margin="20dp"
+
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Present Address"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:id="@+id/reg_preaddress"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_peraddress"
+                android:hint="Permanent Address"
+                android:layout_gravity="center"
+                android:ems="10"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:layout_marginBottom="8dp"
+            android:background="#FFF">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg_salary"
+                android:hint="Salary"
+                android:layout_gravity="center"
+                android:ems="10"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:background="#369c5b"
+            android:ems="10"
+            android:id="@+id/submit"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:background="#ae1f26"
+            android:ems="10"
+            android:id="@+id/view"
+            android:text="View"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

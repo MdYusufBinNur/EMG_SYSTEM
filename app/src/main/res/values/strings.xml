@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EMG_SYSTEM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </array>
+    <array name="b_group">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </array>
+    <array name="dept">
+        <item>Select Department</item>
+        <item>A</item>
+        <item>B</item>
+        <item>c</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+
+    </array>
+    <array name="section">
+        <item>Select Section</item>
+        <item>sectiob A</item>
+        <item>sectiob B</item>
+        <item>sectiob C</item>
+        <item>sectiob D</item>
+        <item>sectiob E</item>
+        <item>sectiob F</item>
+    </array>
+</resources>
